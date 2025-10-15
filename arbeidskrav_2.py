@@ -113,7 +113,6 @@ def oppgave_5():
         # Regner ut arealet
         areal_trekant = (a * b) * 0.5
         areal_halvsirkel = (a * 0.5)**2 * np.pi * 0.5
-        print(areal_trekant)
         areal_totalt = areal_trekant + areal_halvsirkel
         areal_totalt = round(areal_totalt, 2)
         
